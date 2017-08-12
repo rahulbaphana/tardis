@@ -16,7 +16,7 @@ import static org.junit.Assert.assertTrue;
 
 public class TardisTest {
 
-    private Clock tardis = new Tardis();
+    private final Clock tardis = new Tardis();
 
     @Test
     public void initialize_with_current_time() {
