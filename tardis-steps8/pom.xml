@@ -14,6 +14,17 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.nelkinda</groupId>
+            <artifactId>tardis</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.nelkinda</groupId>
+            <artifactId>tardis-steps-base</artifactId>
+            <scope>test</scope>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <scope>compile</scope>
@@ -36,11 +47,6 @@
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-junit</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.nelkinda</groupId>
-            <artifactId>tardis</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

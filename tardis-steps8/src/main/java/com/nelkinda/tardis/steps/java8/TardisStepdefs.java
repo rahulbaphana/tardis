@@ -1,4 +1,4 @@
-package com.nelkinda.tardis.steps;
+package com.nelkinda.tardis.steps.java8;
 
 import com.nelkinda.tardis.Tardis;
 import cucumber.api.java8.En;
@@ -21,15 +21,15 @@ public class TardisStepdefs implements En {
         Given("^the Tardis time is fixed to millis \"([^\"]*)\",$", this::fixTardisToMillis);
     }
 
-    private void fixTardisToMillis(Long millis) {
+    public void fixTardisToMillis(Long millis) {
         ((Tardis) tardis).fixToMillis(millis);
     }
 
-    private void assertTardisIsAt(String timeSpec) {
+    public void assertTardisIsAt(String timeSpec) {
         assertEquals(parse(timeSpec), tardis.instant());
     }
 
-    private void fixTardisTo(String timeSpec) {
+    public void fixTardisTo(String timeSpec) {
         ((Tardis) tardis).setClock(fixed(parse(timeSpec), UTC));
     }
 }
