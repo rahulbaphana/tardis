@@ -7,11 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tardis" />
+        <module name="tardis-spring-example" />
+        <module name="tardis-steps" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="tardis" target="1.9" />
-      <module name="tardis-parent" target="1.9" />
+      <module name="tardis" target="1.8" />
+      <module name="tardis-parent" target="1.8" />
+      <module name="tardis-spring-example" target="1.8" />
+      <module name="tardis-steps" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

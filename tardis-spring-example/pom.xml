@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>tardis</artifactId>
+    <artifactId>tardis-spring-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <dependencies>
