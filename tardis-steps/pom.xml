@@ -21,7 +21,6 @@
         <dependency>
             <groupId>com.nelkinda</groupId>
             <artifactId>tardis-steps-base</artifactId>
-            <scope>test</scope>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>

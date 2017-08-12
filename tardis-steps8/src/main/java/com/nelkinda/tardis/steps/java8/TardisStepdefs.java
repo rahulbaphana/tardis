@@ -1,17 +1,9 @@
 package com.nelkinda.tardis.steps.java8;
 
-import com.nelkinda.tardis.Tardis;
+import com.nelkinda.tardis.steps.javabase.TardisStepdefsBase;
 import cucumber.api.java8.En;
 
-import java.time.Clock;
-
-import static java.time.Clock.fixed;
-import static java.time.Instant.parse;
-import static java.time.ZoneOffset.UTC;
-import static org.junit.Assert.assertEquals;
-
-public class TardisStepdefs implements En {
-    private final Clock tardis = new Tardis();
+public class TardisStepdefs extends TardisStepdefsBase implements En {
 
     {
         Given("^the Tardis time is fixed to \"([^\"]*)\",$", this::fixTardisTo);
@@ -21,15 +13,4 @@ public class TardisStepdefs implements En {
         Given("^the Tardis time is fixed to millis \"([^\"]*)\",$", this::fixTardisToMillis);
     }
 
-    public void fixTardisToMillis(Long millis) {
-        ((Tardis) tardis).fixToMillis(millis);
-    }
-
-    public void assertTardisIsAt(String timeSpec) {
-        assertEquals(parse(timeSpec), tardis.instant());
-    }
-
-    public void fixTardisTo(String timeSpec) {
-        ((Tardis) tardis).setClock(fixed(parse(timeSpec), UTC));
-    }
 }
