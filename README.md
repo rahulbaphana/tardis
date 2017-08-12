@@ -6,16 +6,17 @@ Tardis is not dependent on any dependency injection framework, but designed to b
 
 ## Building
 
-Tardis currently requires Java 9.
+Tardis requires at least Java 8.
 A backport to Java 8 is planned very shortly after the project is started.
 
-- Ensure that Maven can find and run with Java 9, for example by exporting `JAVA_HOME` to point to Java 9.
+- Ensure that Maven can find and run with Java 8 or newer.
+  For example by exporting `JAVA_HOME` to point to Java 8 or newer.
 - Run the Maven Wrapper.
 
 For example, on Debian-derived Linux systems like Ubuntu, run:
 
 ```
-export JAVA_HOME=/usr/lib/jvm/java-9-oracle
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 ./mvnw clean install
 ```
 
