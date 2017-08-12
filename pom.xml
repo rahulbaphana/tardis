@@ -52,12 +52,6 @@
                     <compilerArgs>
                         <arg>-Xdoclint</arg>
                         <arg>-Xlint:all</arg>
-                        <arg>--add-modules</arg>
-                        <arg>jdk.incubator.httpclient</arg>
-                        <arg>--add-reads</arg>
-                        <arg>jdk.incubator.httpclient=ALL-UNNAMED</arg>
-                        <arg>--add-exports</arg>
-                        <arg>jdk.incubator.httpclient/jdk.incubator.http=ALL-UNNAMED</arg>
                     </compilerArgs>
                 </configuration>
             </plugin>
@@ -72,7 +66,6 @@
                         --add-opens java.base/java.lang.reflect=ALL-UNNAMED
                         --add-opens java.base/java.text=ALL-UNNAMED
                         --add-opens java.desktop/java.awt.font=ALL-UNNAMED
-                        --add-modules jdk.incubator.httpclient
                     </argLine>
                 </configuration>
             </plugin>
