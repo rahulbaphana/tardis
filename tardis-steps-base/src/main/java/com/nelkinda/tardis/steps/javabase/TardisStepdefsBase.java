@@ -9,7 +9,7 @@ import static java.time.Instant.parse;
 import static java.time.ZoneOffset.UTC;
 import static org.junit.Assert.assertEquals;
 
-public class TardisStepdefsBase {
+public abstract class TardisStepdefsBase {
     private final Clock tardis = new Tardis();
 
     public void fixTardisToMillis(Long millis) {
