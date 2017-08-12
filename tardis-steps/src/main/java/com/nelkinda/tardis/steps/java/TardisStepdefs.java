@@ -6,17 +6,17 @@ import cucumber.api.java.en.Then;
 
 public class TardisStepdefs extends TardisStepdefsBase {
 
-    @Given("^the Tardis time is fixed to millis \"([^\"]*)\",$")
+    @Given(FIX_TARDIS_TO_MILLIS)
     public void fixTardisToMillis(Long millis) {
         super.fixTardisToMillis(millis);
     }
 
-    @Then("^the Tardis time is equal to \"([^\"]*)\"\\.$")
+    @Then(ASSERT_TARDIS_IS_AT)
     public void assertTardisIsAt(String timeSpec) {
         super.assertTardisIsAt(timeSpec);
     }
 
-    @Given("^the Tardis time is fixed to \"([^\"]*)\",$")
+    @Given(FIX_TARDIS_TO)
     public void fixTardisTo(String timeSpec) {
         super.fixTardisTo(timeSpec);
     }

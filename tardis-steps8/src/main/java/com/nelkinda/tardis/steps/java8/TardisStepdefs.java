@@ -6,11 +6,11 @@ import cucumber.api.java8.En;
 public class TardisStepdefs extends TardisStepdefsBase implements En {
 
     {
-        Given("^the Tardis time is fixed to \"([^\"]*)\",$", this::fixTardisTo);
+        Given(FIX_TARDIS_TO, this::fixTardisTo);
 
-        Then("^the Tardis time is equal to \"([^\"]*)\"\\.$", this::assertTardisIsAt);
+        Then(ASSERT_TARDIS_IS_AT, this::assertTardisIsAt);
 
-        Given("^the Tardis time is fixed to millis \"([^\"]*)\",$", this::fixTardisToMillis);
+        Given(FIX_TARDIS_TO_MILLIS, this::fixTardisToMillis);
     }
 
 }
