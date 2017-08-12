@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/tardis.iml" filepath="$PROJECT_DIR$/tardis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tardis/tardis.iml" filepath="$PROJECT_DIR$/tardis/tardis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tardis-parent.iml" filepath="$PROJECT_DIR$/tardis-parent.iml" />
     </modules>
   </component>
 </project>
