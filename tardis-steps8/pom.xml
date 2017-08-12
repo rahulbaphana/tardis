@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>tardis-steps</artifactId>
+    <artifactId>tardis-steps8</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <dependencies>
@@ -26,6 +26,11 @@
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-java</artifactId>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java8</artifactId>
             <scope>compile</scope>
         </dependency>
         <dependency>

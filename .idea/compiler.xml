@@ -9,6 +9,8 @@
         <module name="tardis" />
         <module name="tardis-spring-example" />
         <module name="tardis-steps" />
+        <module name="tardis-steps-base" />
+        <module name="tardis-steps8" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +18,8 @@
       <module name="tardis-parent" target="1.8" />
       <module name="tardis-spring-example" target="1.8" />
       <module name="tardis-steps" target="1.8" />
+      <module name="tardis-steps-base" target="1.8" />
+      <module name="tardis-steps8" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

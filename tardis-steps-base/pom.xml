@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>tardis-steps</artifactId>
+    <artifactId>tardis-steps-base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <dependencies>

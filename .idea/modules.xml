@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/tardis-parent.iml" filepath="$PROJECT_DIR$/tardis-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/tardis-spring-example/tardis-spring-example.iml" filepath="$PROJECT_DIR$/tardis-spring-example/tardis-spring-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/tardis-steps/tardis-steps.iml" filepath="$PROJECT_DIR$/tardis-steps/tardis-steps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tardis-steps-base/tardis-steps-base.iml" filepath="$PROJECT_DIR$/tardis-steps-base/tardis-steps-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tardis-steps8/tardis-steps8.iml" filepath="$PROJECT_DIR$/tardis-steps8/tardis-steps8.iml" />
     </modules>
   </component>
 </project>

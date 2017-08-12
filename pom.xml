@@ -16,7 +16,9 @@
     <modules>
         <module>tardis</module>
         <module>tardis-spring-example</module>
+        <module>tardis-steps-base</module>
         <module>tardis-steps</module>
+        <module>tardis-steps8</module>
     </modules>
 
     <dependencyManagement>
